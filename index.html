@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <button style="display: none" class="onCal" onclick="turnOn()">
+      On Calculator
+    </button>
+
+    <div id="btnValue" class="cont">
+      <div class="top_control">
+        <button class="darkmode">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+        <button onclick="offCal()">Off</button>
+      </div>
+
+      <p class="display"></p>
+
+      <div class="calBtnCall">
+        <div class="r1 allbtn">
+          <button onclick="clearDisplay()">AC</button>
+          <button onclick="clearChar()">C</button>
+          <button onclick="getValue('/')">÷</button>
+          <button onclick="getValue('+')">+</button>
+        </div>
+        <!-- <br /> -->
+
+        <div class="r2 allbtn">
+          <button onclick=" getValue(7) " class="seven">7</button>
+          <button onclick="getValue(8)">8</button>
+          <button onclick="getValue(9)">9</button>
+          <button onclick="getValue('*')">×</button>
+        </div>
+        <!-- <br /> -->
+
+        <div class="r3 allbtn">
+          <button onclick="getValue(4)">4</button>
+          <button onclick="getValue(5)">5</button>
+          <button onclick="getValue(6)">6</button>
+          <button onclick="getValue('-')">-</button>
+        </div>
+        <!-- <br /> -->
+
+        <div class="r4 allbtn">
+          <button onclick="getValue(1)">1</button>
+          <button onclick="getValue(2)">2</button>
+          <button onclick="getValue(3)">3</button>
+          <button onclick="getValue('+')">+</button>
+        </div>
+        <!-- <br /> -->
+
+        <div class="r5 allbtn">
+          <button onclick="getValue(0)">0</button>
+          <button onclick="getValue('.')">.</button>
+          <button onclick="result()">=</button>
+        </div>
+      </div>
+    </div>
+
+    <span> Made with ♥️ by <a href="https://maadurga.store/">Anil</a> </span>
+    <script src="app.js"></script>
+  </body>
+</html>

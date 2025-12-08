@@ -1,0 +1,102 @@
+  * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        height: 100vh;
+        font-family: "Segoe UI", sans-serif;
+        transition: all 0.5s;
+        /* background-color: black; */
+      }
+
+      .cont {
+        /* background-color: red; */
+        width: 21rem;
+        min-height: 34rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #00000050;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        transition: all 0.5s;
+      }
+
+      .cont .calBtnCall button {
+        background-color: #fff;
+        border: none;
+        padding: 1rem;
+        font-size: 1.6rem;
+        height: 4rem;
+        width: 4rem;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: #0c0c2ed2;
+        color: white;
+        margin-top: 10px;
+        margin-right: 5px;
+        transition: all 0.5s;
+      }
+
+      .cont .top_control button {
+        border: none;
+        cursor: pointer;
+        padding: 1.4rem;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        height: 2rem;
+        width: 5rem;
+        background-color: #040436d2;
+        color: white;
+        margin: 10px 0 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+      }
+
+      .cont .top_control {
+        display: flex;
+        gap: 7.4rem;
+      }
+
+      .display {
+        font-size: 2rem;
+        overflow-x: auto;
+        min-height: 50px;
+        width: 85%;
+        text-align: right;
+        background-color: black;
+        color: aqua;
+        padding: 14px;
+        text-align: ce;
+        border-radius: 10px;
+        transition: all 0.5s;
+      }
+
+      .r5 {
+        margin-left: 2rem;
+      }
+
+      .onCal {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 0.5rem;
+        font-weight: 800;
+        border-radius: 8px;
+        position: relative;
+        bottom: 16rem;
+        font-size: xx-large;
+      }
+
+      span {
+        display: inline;
+        margin-top: 5rem;
+        opacity: 0.7;
+       
+      }
