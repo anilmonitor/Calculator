@@ -47,8 +47,7 @@ let turnOn = () => {
 
 };
 
-//function to toggle dark mode
-
+//function to toggle dark mode smartly
 let toggle = false;
 let darkmodebtn = document.querySelector(".darkmode");
 
