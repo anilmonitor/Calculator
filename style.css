@@ -10,11 +10,10 @@
         height: 100vh;
         font-family: "Segoe UI", sans-serif;
         transition: all 0.5s;
-        /* background-color: black; */
+        
       }
 
       .cont {
-        /* background-color: red; */
         width: 21rem;
         min-height: 34rem;
         border-radius: 10px;
